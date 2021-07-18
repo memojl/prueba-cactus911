@@ -26,12 +26,43 @@ a {
   text-align: right;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .primary-color{
   color: var(--primary);
 }
 
+.secundary-color{
+  color: var(--secundary);
+}
+.px-6{
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+#redes{
+  display: inline-flex;
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+
+#redes li{
+  padding: 0 12px;
+}
+
+#redes li .fa{
+  font-size: 24px;
+}
+
 #list{
   list-style-type: disc;
+}
+
+#list2{
+  display: block;
+  list-style: none;
 }
 
 .line{
@@ -87,6 +118,30 @@ a {
   background: var(--primary);
   padding: 4px 8px;
 }
+
+.btn-cuadro:hover{
+ color: #fff;
+}
+
+#space-user .btn-seccion2 .fa{
+  font-weight: 100;
+  font-size: 11px;
+}
+
+.icon-redes{
+  color: var(--primary);
+  font-size: 70px;
+}
+.tit-redes{
+  font-size: 24px;
+}
+
+.cuadro{
+  background: var(--footer);
+  padding: 20px;
+  margin: 25px -20px 0 0;
+}
+
 /*SPACE USER MENU*/
 #space-user {
   font-size: 22px;

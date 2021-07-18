@@ -8,8 +8,8 @@
     <!-- Web Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
     <!-- Fontawesome -->
-    <!--link href="./assets/css/font-awesome/f-5.14.0-web/css/fontawesome.min.css" rel="stylesheet"-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/-->
     <!-- Bootstrap -->
     <link href="./assets/css/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Style Costum -->
@@ -29,7 +29,8 @@
           <i class="fa fa-heart"></i> | 
           <i class="fa fa-user"></i> | 
           <i class="fa fa-user primary-color"></i> <span>ESPACE PROPRIÉTAIRE</span> | 
-          <button class="">FR <i class="fa fa-chevron-down"></i></button>
+          <!--button class="">FR <i class="fa fa-chevron-down"></i></button-->
+          <a class="btn-seccion2" href="#">FR <i class="fa fa-chevron-down text-white"></i></a>
         </div>
         <ul id="menu">
           <li>
@@ -75,53 +76,110 @@
         </div>
       </div>
     </section>
+    
     <section id="content" class="container">
-      <p class="crumb">Accueil › Communauté</p>
-      <div class="content1">
-        <h2>partout avec vous !</h2>
-        <p>Secundo ne se limite pas uniquement à un site web, c’est bien plus que ça. A l’heure de la digitalisation, nous avons à cœur de partager notre actualité sur différents canaux afin de nous
-          adresser à tout public. De plus, chacun de ces canaux a une vocation qui lui est propre, facilitant ainsi l’accès à l’information recherchée. Découvrez tous les détails ci-dessous.
-        </p>
-        <p class="text-center">
-          <a class="btn-seccion" href="#">Abonnez-vous à notre newsletter</a>
-        </p>
-        <div>
-          <p><strong>titulo</strong></p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quisquam, excepturi inventore praesentium est perferendis dolore, iusto culpa vel exercitationem similique aut blanditiis provident animi fugiat. Non totam consequuntur quibusdam.</p>
-          <p><strong>titulo</strong></p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quisquam, excepturi inventore praesentium est perferendis dolore, iusto culpa vel exercitationem similique aut blanditiis provident animi fugiat. Non totam consequuntur quibusdam.</p>
-          <p><strong>titulo</strong></p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quisquam, excepturi inventore praesentium est perferendis dolore, iusto culpa vel exercitationem similique aut blanditiis provident animi fugiat. Non totam consequuntur quibusdam.</p>
-        </div>
-      </div>
-      <div class="contact">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="cuadro">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam corrupti doloribus et fugit! Aut, amet magni repellendus maxime libero ex! Dolore doloremque error non ut explicabo reprehenderit quisquam repellat.
-              </p>
+      <div class="row px-4">
+        <div class="col-lg-12 px-5">
+          <p class="crumb">Accueil › <span>Communauté</span></p>
+          <div class="content1">
+            <h2 class="secundary-color py-2"><div class="line2"></div> <span>Secundo,</span> partout avec vous !</h2>
+            <p class="py-4">Secundo ne se limite pas uniquement à un site web, c’est bien plus que ça. A l’heure de la digitalisation, nous avons à cœur de partager notre actualité sur différents canaux afin de nous
+              adresser à tout public. De plus, chacun de ces canaux a une vocation qui lui est propre, facilitant ainsi l’accès à l’information recherchée. Découvrez tous les détails ci-dessous.
+            </p>
+            <p class="text-center py-4">
+              <a class="btn-seccion" href="#">Abonnez-vous à notre newsletter</a>
+            </p>
+            <div class="row py-5">
+              <div class="col-lg-2 text-center py-3">
+                <i class="fa fa-facebook-f icon-redes"></i>
+              </div>
+              <div class="col-lg-10">
+                <p><strong class="tit-redes">Nous suivre sur Facebook</strong></p>
+                <p class="pb-4">Facebook, c’est LE réseau social par excellence !<br>
+                  Sur notre page Facebook, vous trouverez tous nos biens, nos évènements, les témoignages de nos clients, sans oublier des photos et vidéos</p>
+              </div>
+              <div class="col-lg-2 text-center py-3">
+                <i class="fa fa-linkedin icon-redes"></i>
+              </div>
+              <div class="col-lg-10">
+                <p><strong class="tit-redes">Nous suivre sur LinkedIn</strong></p>
+                <p class="pb-4">LinkedIn est, par définition, le réseau social orienté B2B. Sur notre compte LinkedIn, vous découvrirez nos articles de blog, des informations relatives à
+                  l’Espagne et l’immobilier, sans oublier des offres pouvant susciter l’intérêt de l’investisseur qui sommeille en vous</p>
+              </div>
+              <div class="col-lg-2 text-center py-3">
+                <i class="fa fa-instagram icon-redes"></i>
+              </div>
+              <div class="col-lg-10">
+                <p><strong class="tit-redes">Nous suivre sur Instagram</strong></p>
+                <p class="pb-4">Instagram, c’estle réseau social dédié à la photo. Sur notre compte Instagram, place à l’évasion ! Vous y découvrirez des photos de biens, mais aussi et
+                  surtout des photos de paysages pour vous faire rêver et vous emmener ailleurs.</p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div class="img">
-              <img class="img-reponsive" src="./assets/img/hands-phone.png" alt="hand phone">
+          <div class="contact">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="cuadro">
+                  <p class="py-2">
+                    <div class="line2"></div> <h2>Lorem</h2>
+                  </p>
+                  <p class="px-6 text-justify">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt utlabore et dolore magna aliquyam erat, sed diam voluptua. At vero
+eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et
+dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam etjusto duo
+dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet.<br>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                  <p class="text-center pt-5">
+                    <a class="btn-seccion" href="#">Nous contacter</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="img">
+                  <img class="img-reponsive" src="./assets/img/hands-phone.png" alt="hand phone">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="gallery" class="container">
-      gallery
-      <p class="text-center">
-        <a class="btn-seccion" href="#">Suivez-nous sur Instagram</a>
-      </p>
+      <div class="row">
+        <div class="col-lg-12 py-5 px-5">
+          <div class="row">
+            <div class="col-lg-12 py-3">
+              <h2 class="secundary-color py-2"><div class="line2"></div> <span>Gallery</span> lightbox<br><span>Insert a lightbox for the photos below<span></h2>
+            </div>
+            <div class="col-lg-3">
+              <img src="./assets/img/ima1.jpg" alt="">
+            </div>
+            <div class="col-lg-3">
+              <img src="./assets/img/ima2.jpg" alt="">
+            </div>
+            <div class="col-lg-3">
+              <img src="./assets/img/ima3.jpg" alt="">
+            </div>
+            <div class="col-lg-3">
+              <img src="./assets/img/ima4.jpg" alt="">
+            </div>
+          </div> 
+          <p class="text-center pt-5">
+            <a class="btn-seccion" href="#">Suivez-nous sur Instagram</a>
+          </p>
+        </div>
+      </div>
     </section>
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="container2">
+            <div class="px-2">
               <div class="row line-footer">
                 <div class="line2"></div>
                 <h3>Informations</h3>
@@ -175,7 +233,7 @@
               </div>
               <div class="row">
                 <div class="col-lg-6">
-                  <ul id="list2">
+                  <ul id="list2" class="px-0">
                     <li>Accueil</li>
                     <li>Secundo</li>
                     <li>Appartements</li>
