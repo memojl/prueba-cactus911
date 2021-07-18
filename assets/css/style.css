@@ -37,9 +37,33 @@ a {
 .secundary-color{
   color: var(--secundary);
 }
+
 .px-6{
   padding-right: 4rem;
   padding-left: 4rem;
+}
+
+h2 strong{
+  font-size: 22px;
+}
+
+#new-font{
+  color: var(--primary);
+    font-size: 60px;
+    font-family: 'Mr De Haviland';
+    width: 140px;
+    float: left;
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+#new-font1{
+  color: var(--primary);
+    font-size: 40px;
+    font-family: 'Mr De Haviland';
+    width: 85px;
+    float: left;
+    margin-left: 20px;
 }
 
 #redes{
@@ -77,6 +101,15 @@ a {
   float: left;
   width: 60px;
   margin-top: 15px;
+  margin-right: 3px;
+  border-top: 1px solid var(--primary);
+}
+
+.line3{
+  float: left;
+  width: 60px;
+  height: 50px;
+  margin-top: -20px;
   margin-right: 0px;
   border-top: 1px solid var(--primary);
 }
@@ -132,6 +165,7 @@ a {
   color: var(--primary);
   font-size: 70px;
 }
+
 .tit-redes{
   font-size: 24px;
 }
@@ -304,8 +338,16 @@ input {
  padding-bottom: 45px;
 }
 
-.crumb{
+.content1{
+ padding-top: 40px;
+}
 
+.crumb{
+  font-size: 11px;
+}
+
+.crumb span{
+  color: var(--secundary);
 }
 
 /*GALLERY*/
@@ -344,6 +386,9 @@ input[type="text"], input[type="email"]{
 
 /*MOVIL*/
 @media all and (max-width: 968px) {
+  .img-reponsive{
+    width: 100%;
+  }
   nav ul{
     margin-right: 0px;
     float: left;
@@ -422,5 +467,12 @@ input[type="text"], input[type="email"]{
   }
   #space-user{
     display: none;
+  }
+  .text-slider{
+    padding: 80px 40px 35px 25px;
+  }
+  .btn-seccion, .btn-seccion2{
+    font-size: 18px !important;
+    padding: 4px 12px;
   }
 }
