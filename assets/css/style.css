@@ -30,16 +30,62 @@ a {
   color: var(--primary);
 }
 
-.btn-seccion{
+#list{
+  list-style-type: disc;
+}
+
+.line{
+  float: left;
+  width: 70px;
+  margin-top: 22px;
+  margin-right: 5px;
+  border-top: 2px solid #fff;
+}
+
+.line2{
+  float: left;
+  width: 60px;
+  margin-top: 15px;
+  margin-right: 0px;
+  border-top: 1px solid var(--primary);
+}
+
+.line-ajust{
+  padding: 0 12px 12px;
+}
+
+.line-text{
+  float: left;
+  width: 200px;
+}
+
+.btn-seccion, .btn-seccion2{
   color: #fff;
+  font-weight: 600;
+  font-size: 17px;
   background: var(--secundary);
   padding: 7px 30px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   border-radius: 18px;
 }
-.btn-seccion:hover{
+.btn-seccion2{
+  cursor: pointer;
+  font-size: 11px;
+  border:0;
+  padding: 4px 12px;
+}
+.btn-seccion:hover, .btn-seccion2:hover{
+  color: #fff;
   background: var(--primary);
+}
+
+.btn-cuadro{
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+  background: var(--primary);
+  padding: 4px 8px;
 }
 /*SPACE USER MENU*/
 #space-user {
@@ -164,10 +210,16 @@ input {
   color: #fff;
   font-weight: 600;
   font-size: 22px;
-  padding: 55px 120px 35px 86px;
+  padding: 60px 120px 35px 86px;
 }
 
-.text-slider p {
+.text-slider h3{
+  font-weight: 600;
+  font-size: 22px;
+  padding-left: 4px;
+}
+
+.text-slider p, .text-h2 {
   color: #fff;
   font-weight: bold;
   font-size: 28px;
@@ -191,10 +243,48 @@ input {
   font-size: 17px;
 }
 
+/*CONTENEDOR*/
+#content{
+ padding-top: 30px;
+ padding-bottom: 45px;
+}
+
+.crumb{
+
+}
+
+/*GALLERY*/
+#gallery{
+ padding-top: 35px;
+ padding-bottom: 35px;
+}
+
 /*FOOTER*/
 footer {
-  background: #eee;
+  background: var(--footer);
   padding: 45px 0px 25px;
+}
+
+.container2{
+  margin: 0 20%;
+}
+
+.line-footer{
+  color: var(--secundary);
+  padding: 0 10px;
+}
+
+.line-footer h3{
+  float:left;
+  font-size: 25px;
+  color: var(--secundary);
+  font-weight: bolder;
+  width: 150px;
+}
+
+/*FORM*/
+input[type="text"], input[type="email"]{
+  border: 1px solid var(--secundary);
 }
 
 /*MOVIL*/
