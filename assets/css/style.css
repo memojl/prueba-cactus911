@@ -1,0 +1,281 @@
+* {
+  font-size: 12px;
+  font-family: "Open Sans", Arial, sans-serif;
+  --primary: #495F6B;
+  --secundary: #DCAF27;
+  --footer: #F5F5F5;
+}
+
+body {
+  color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 20px;
+  color: var(--secundary);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.primary-color{
+  color: var(--primary);
+}
+
+.btn-seccion{
+  color: #fff;
+  background: var(--secundary);
+  padding: 7px 30px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+}
+.btn-seccion:hover{
+  background: var(--primary);
+}
+/*SPACE USER MENU*/
+#space-user {
+  font-size: 22px;
+  text-align: right;
+  padding: 10px 22px 2px 22px;
+}
+
+#space-user span {
+  font-size: 11px;
+}
+
+/*MENU*/
+nav {
+  background: #ffffff;
+}
+
+nav:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+nav .logo {
+  float: left;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-left: 15px;/* 35px; 60px;*/
+}
+
+nav ul {
+  float: right;/*margin-right: 40px;*/
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  float: left;
+  display: inline-block;
+  background: #fff;
+  margin: 0 20px;/*Espacio entre menus*/
+}
+
+nav ul li a {
+  color: var(--primary);
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 11px;/*Tamaño del letra del menu*/
+  padding: 8px 1px;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  color: var(--secundary);
+  border-bottom: 2px solid var(--secundary);
+}
+
+nav ul ul li a:hover {
+  border-bottom: 0px solid var(--secundary);
+  box-shadow: none;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 90px;/*Altura*/
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+  padding-left: 0;
+}
+
+nav ul ul ul {
+  border-top: none;
+}
+
+nav ul li:hover>ul {
+  top: 50px;/*Altura del submenu*/
+  opacity: 1;
+  visibility: visible;
+}
+
+/*submenu*/
+nav ul ul li {
+  position: relative;
+  margin: 0px;
+  width: 170px;
+  float: none;
+  display: list-item;
+  padding: 0 10px;
+}
+
+nav ul ul li a {
+  text-decoration: none;
+  line-height: 30px;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
+
+.show,
+.icon,
+input {
+  display: none;
+}
+
+/*SLIDER*/
+#slider {
+  background: url('../img/banner0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-weight: 300;
+  height: 430px;
+}
+
+.text-slider {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 55px 120px 35px 86px;
+}
+
+.text-slider p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  padding: 6px;
+}
+
+.text-slider ul {
+  padding: 20px 0 17px 98px;
+}
+
+.text-slider ul li {
+  font-weight: 400;
+  font-size: 19px;
+  padding: 4px 0px;
+}
+
+.text-slider a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/*FOOTER*/
+footer {
+  background: #eee;
+  padding: 45px 0px 25px;
+}
+
+/*MOVIL*/
+@media all and (max-width: 968px) {
+  nav ul{
+    margin-right: 0px;
+    float: left;
+    padding-top: 35px;
+  }
+  nav .logo{
+    padding-left: 30px;
+    width: 100%;
+  }
+  .show + a, ul{
+    display: none;
+  }
+  nav ul li,nav ul ul li{
+    display: block;
+    width: 100%;
+  }
+  nav ul a{
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+
+  nav ul li a:hover{
+    box-shadow: none;
+    border: 0px solid transparent;
+  }
+  .show{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  .show:hover{
+    color: var(--secundary);
+  }
+  .icon{
+    display: block;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  nav ul ul{
+    top: 35px;
+    border-top: 0px;
+    float: none;
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    padding-top: 0;
+  }
+  nav ul ul a{
+    padding-left: 40px;
+  }
+  nav ul ul ul a{
+    padding-left: 80px;
+  }
+  nav ul ul ul li{
+    position: static;
+  }
+  [id^=btn]:checked + ul{
+    display: block;
+  }
+  nav ul ul li{
+    border-bottom: 0px;
+  }
+  span.cancel:before{
+    content: '\f00d';
+  }
+  .display-menu{
+    display: inherit;
+  }
+  #space-user{
+    display: none;
+  }
+}
