@@ -1,4 +1,4 @@
-
+$('.icon').click(function(){$('#menu').toggleClass("display-menu");});
 // Open the Modal
 function openModal() {
   document.getElementById("myModal").style.display = "block";

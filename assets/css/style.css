@@ -376,6 +376,11 @@ footer {
   padding: 45px 0px 25px;
 }
 
+.container1{
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
 .container2 {
   margin: 0 20%;
 }
@@ -490,13 +495,53 @@ input[type="email"] {
   }
   .btn-seccion,
   .btn-seccion2 {
-    font-size: 18px !important;
+    font-size: 18px;
     padding: 4px 12px;
+  }
+  .btn-cuadro{
+    margin-top: 2rem;
+  }
+  .cuadro{
+    margin: 0;
+  }
+  .container1, 
+  .container2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 20% 3rem;
+  }
+  #list2{
+    padding-left: 0;
+  }
+  h2 strong{
+    font-size: 18px;
+  }
+  .show>i{
+    color: var(--secundary);
+    font-size: 12px;
+  }
+  .show>i:hover{
+    color: var(--secundary);
   }
 }
 
 @media all and (max-width: 400px) {
   #controles {
     padding-left: 28%;
+  }
+  .btn-seccion,
+  .btn-seccion2 {
+    font-size: 14px;
+  }
+  .px-6{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .line-footer h3{
+    font-size: 23px;
+    width: 50%;
+  }
+  .img-small{
+    width: 70%;
   }
 }
