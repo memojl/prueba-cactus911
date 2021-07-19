@@ -1,3 +1,6 @@
 /node_modules
 /_docs
 /test
+/assets/css/style.css
+/assets/css/lightbox.css
+/assets/js/lightbox.js
