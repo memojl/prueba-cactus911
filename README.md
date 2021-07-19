@@ -11,4 +11,5 @@ Prueba Cactus 911 - Template Frontend
 
 *Nota: No se pudo abrir el archivo de Adobe XD apesar de tener la aplicación instalada pedia una actualización la cual no se completo. De haber tenido los archivos y fuentes originales se hubiera logrado un mejor resultado.
 
-#Vista Previa
+# Vista Previa
+![preview](https://user-images.githubusercontent.com/42015891/126187558-cc1a104b-81ff-40bb-b24b-b67cd6a3979a.jpg)
