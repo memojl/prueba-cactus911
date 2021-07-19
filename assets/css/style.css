@@ -1,3 +1,7 @@
+/*CSS 
+Desarrolado por: Guillermo Jiménez López
+Fecha: 17-07-2021
+*/
 * {
   font-size: 12px;
   font-family: "Open Sans", Arial, sans-serif;
@@ -26,70 +30,70 @@ a {
   text-align: right;
 }
 
-.text-justify{
+.text-justify {
   text-align: justify;
 }
 
-.primary-color{
+.primary-color {
   color: var(--primary);
 }
 
-.secundary-color{
+.secundary-color {
   color: var(--secundary);
 }
 
-.px-6{
+.px-6 {
   padding-right: 4rem;
   padding-left: 4rem;
 }
 
-h2 strong{
+h2 strong {
   font-size: 22px;
 }
 
-#new-font{
+#new-font {
   color: var(--primary);
-    font-size: 60px;
-    font-family: 'Mr De Haviland';
-    width: 140px;
-    float: left;
-    margin-top: -50px;
-    margin-left: 25px;
+  font-size: 60px;
+  font-family: 'Mr De Haviland';
+  width: 140px;
+  float: left;
+  margin-top: -50px;
+  margin-left: 25px;
 }
 
-#new-font1{
+#new-font1 {
   color: var(--primary);
-    font-size: 40px;
-    font-family: 'Mr De Haviland';
-    width: 85px;
-    float: left;
-    margin-left: 20px;
+  font-size: 40px;
+  font-family: 'Mr De Haviland';
+  width: 85px;
+  float: left;
+  margin-left: 20px;
 }
 
-#redes{
+#redes {
   display: inline-flex;
   list-style: none;
   padding: 10px 0 10px 0;
 }
 
-#redes li{
+#redes li {
   padding: 0 12px;
 }
 
-#redes li .fa{
+#redes li .fa {
   font-size: 24px;
 }
 
-#list{
+#list {
   list-style-type: disc;
 }
 
-#list2{
+#list2 {
   display: block;
   list-style: none;
 }
 
-.line{
+.line {
   float: left;
   width: 70px;
   margin-top: 22px;
@@ -97,7 +101,7 @@ h2 strong{
   border-top: 2px solid #fff;
 }
 
-.line2{
+.line2 {
   float: left;
   width: 60px;
   margin-top: 15px;
@@ -105,7 +109,7 @@ h2 strong{
   border-top: 1px solid var(--primary);
 }
 
-.line3{
+.line3 {
   float: left;
   width: 60px;
   height: 50px;
@@ -114,16 +118,17 @@ h2 strong{
   border-top: 1px solid var(--primary);
 }
 
-.line-ajust{
+.line-ajust {
   padding: 0 12px 12px;
 }
 
-.line-text{
+.line-text {
   float: left;
   width: 200px;
 }
 
-.btn-seccion, .btn-seccion2{
+.btn-seccion,
+.btn-seccion2 {
   color: #fff;
   font-weight: 600;
   font-size: 17px;
@@ -133,18 +138,21 @@ h2 strong{
   -moz-border-radius: 18px;
   border-radius: 18px;
 }
-.btn-seccion2{
+
+.btn-seccion2 {
   cursor: pointer;
   font-size: 11px;
-  border:0;
+  border: 0;
   padding: 4px 12px;
 }
-.btn-seccion:hover, .btn-seccion2:hover{
+
+.btn-seccion:hover,
+.btn-seccion2:hover {
   color: #fff;
   background: var(--primary);
 }
 
-.btn-cuadro{
+.btn-cuadro {
   color: #fff;
   font-weight: 600;
   font-size: 11px;
@@ -152,25 +160,25 @@ h2 strong{
   padding: 4px 8px;
 }
 
-.btn-cuadro:hover{
- color: #fff;
+.btn-cuadro:hover {
+  color: #fff;
 }
 
-#space-user .btn-seccion2 .fa{
+#space-user .btn-seccion2 .fa {
   font-weight: 100;
   font-size: 11px;
 }
 
-.icon-redes{
+.icon-redes {
   color: var(--primary);
   font-size: 70px;
 }
 
-.tit-redes{
+.tit-redes {
   font-size: 24px;
 }
 
-.cuadro{
+.cuadro {
   background: var(--footer);
   padding: 20px;
   margin: 25px -20px 0 0;
@@ -208,7 +216,8 @@ nav .logo {
 }
 
 nav ul {
-  float: right;/*margin-right: 40px;*/
+  float: right;
+  /*margin-right: 40px;*/
   list-style: none;
   position: relative;
 }
@@ -302,13 +311,14 @@ input {
   padding: 60px 120px 35px 86px;
 }
 
-.text-slider h3{
+.text-slider h3 {
   font-weight: 600;
   font-size: 22px;
   padding-left: 4px;
 }
 
-.text-slider p, .text-h2 {
+.text-slider p,
+.text-h2 {
   color: #fff;
   font-weight: bold;
   font-size: 28px;
@@ -333,27 +343,31 @@ input {
 }
 
 /*CONTENEDOR*/
-#content{
- padding-top: 30px;
- padding-bottom: 45px;
+#content {
+  padding-top: 30px;
+  padding-bottom: 45px;
 }
 
-.content1{
- padding-top: 40px;
+.content1 {
+  padding-top: 40px;
 }
 
-.crumb{
+.crumb {
   font-size: 11px;
 }
 
-.crumb span{
+.crumb span {
   color: var(--secundary);
 }
 
 /*GALLERY*/
-#gallery{
- padding-top: 35px;
- padding-bottom: 35px;
+#gallery {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#controles {
+  padding-left: 41%;
 }
 
 /*FOOTER*/
@@ -362,17 +376,17 @@ footer {
   padding: 45px 0px 25px;
 }
 
-.container2{
+.container2 {
   margin: 0 20%;
 }
 
-.line-footer{
+.line-footer {
   color: var(--secundary);
   padding: 0 10px;
 }
 
-.line-footer h3{
-  float:left;
+.line-footer h3 {
+  float: left;
   font-size: 25px;
   color: var(--secundary);
   font-weight: bolder;
@@ -380,51 +394,54 @@ footer {
 }
 
 /*FORM*/
-input[type="text"], input[type="email"]{
+input[type="text"],
+input[type="email"] {
   border: 1px solid var(--secundary);
 }
 
+
 /*MOVIL*/
 @media all and (max-width: 968px) {
-  .img-reponsive{
+  .img-reponsive {
     width: 100%;
   }
-  nav ul{
+  nav ul {
     margin-right: 0px;
     float: left;
     padding-top: 35px;
   }
-  nav .logo{
+  nav .logo {
     padding-left: 30px;
     width: 100%;
   }
-  .show + a, ul{
+  .show+a,
+  ul {
     display: none;
   }
-  nav ul li,nav ul ul li{
+  nav ul li,
+  nav ul ul li {
     display: block;
     width: 100%;
   }
-  nav ul a{
+  nav ul a {
     font-size: 12px !important;
     font-weight: 600;
   }
-
-  nav ul li a:hover{
+  nav ul li a:hover {
     box-shadow: none;
     border: 0px solid transparent;
   }
-  .show{
+  .show {
     display: block;
     font-size: 12px;
     font-weight: 600;
     line-height: 50px;
     cursor: pointer;
   }
-  .show:hover{
+  .show:hover {
     color: var(--secundary);
   }
-  .icon{
+  .icon {
     display: block;
     color: white;
     position: absolute;
@@ -434,7 +451,7 @@ input[type="text"], input[type="email"]{
     cursor: pointer;
     font-size: 25px;
   }
-  nav ul ul{
+  nav ul ul {
     top: 35px;
     border-top: 0px;
     float: none;
@@ -444,35 +461,42 @@ input[type="text"], input[type="email"]{
     visibility: visible;
     padding-top: 0;
   }
-  nav ul ul a{
+  nav ul ul a {
     padding-left: 40px;
   }
-  nav ul ul ul a{
+  nav ul ul ul a {
     padding-left: 80px;
   }
-  nav ul ul ul li{
+  nav ul ul ul li {
     position: static;
   }
-  [id^=btn]:checked + ul{
+  [id^=btn]:checked+ul {
     display: block;
   }
-  nav ul ul li{
+  nav ul ul li {
     border-bottom: 0px;
   }
-  span.cancel:before{
+  span.cancel:before {
     content: '\f00d';
   }
-  .display-menu{
+  .display-menu {
     display: inherit;
   }
-  #space-user{
+  #space-user {
     display: none;
   }
-  .text-slider{
+  .text-slider {
     padding: 80px 40px 35px 25px;
   }
-  .btn-seccion, .btn-seccion2{
+  .btn-seccion,
+  .btn-seccion2 {
     font-size: 18px !important;
     padding: 4px 12px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #controles {
+    padding-left: 28%;
   }
 }

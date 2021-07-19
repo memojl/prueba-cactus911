@@ -5,24 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secundo real state</title>
-    
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome 5 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Font Awesome 4 -->
     <link href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="./assets/css/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="./assets/css/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Style Costum -->
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/lightbox.css" rel="stylesheet">
-    <!-- MDB Lightbox -->
-    <!--link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet"/-->
-
   </head>
   <body>
     <header class="container">
@@ -38,7 +30,6 @@
           <i class="fa fa-heart"></i> | 
           <i class="fa fa-user"></i> | 
           <i class="fa fa-user primary-color"></i> <span>ESPACE PROPRIÉTAIRE</span> | 
-          <!--button class="">FR <i class="fa fa-chevron-down"></i></button-->
           <a class="btn-seccion2" href="#">FR <i class="fa fa-chevron-down text-white"></i></a>
         </div>
         <ul id="menu">
@@ -92,7 +83,7 @@
           <div class="content1">
             <h2 class="secundary-color pt-2 pb-5">
               <div class="line3"></div>
-              <div id="new-font">Secundo,</div> 
+              <div id="new-font">Secundo,</div>
               <strong>partout avec vous !</strong>
             </h2>
             <p class="py-4">Secundo ne se limite pas uniquement à un site web, c’est bien plus que ça. A l’heure de la digitalisation, nous avons à cœur de partager notre actualité sur différents canaux afin de nous
@@ -172,128 +163,64 @@
             <div class="col-lg-12 py-3">
               <h2 class="secundary-color py-2">
                 <div class="line2"></div>
-                <div id="new-font1">Gallery</div> <strong>lightbox</strong> <br>
+                <div id="new-font1">Gallery</div>
+                <strong>lightbox</strong> <br>
                 <div>Insert a lightbox for the photos below</div>
               </h2>
             </div>
-            <!--
-            <div class="col-lg-3 col-sm-6">
-              <img src="./assets/img/ima1.jpg" alt="">
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <img src="./assets/img/ima2.jpg" alt="">
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <img src="./assets/img/ima3.jpg" alt="">
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <img src="./assets/img/ima4.jpg" alt="">
-            </div>
-            -->
-          <!--
-            <div class="lightbox" id="lightbox">
-              <div class="row">
-                <div class="col-lg-4">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/1.jpg"
-                    data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/1.jpg"
-                    alt="Lightbox image 1"
-                    class="w-100"
-                  />
-                </div>
-                <div class="col-lg-4">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/2.jpg"
-                    data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/2.jpg"
-                    alt="Lightbox image 2"
-                    class="w-100"
-                  />
-                </div>
-                <div class="col-lg-4">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/3.jpg"
-                    data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/3.jpg"
-                    alt="Lightbox image 3"
-                    class="w-100"
-                  />
-                </div>
+            <!-- LIGHTBOX -->
+            <!-- Images used to open the lightbox -->
+            <div class="row">
+              <div class="col-lg-3 col-sm-6 text-center">
+                <img src="./assets/img/ima1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              </div>
+              <div class="col-lg-3 col-sm-6 text-center">
+                <img src="./assets/img/ima2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+              </div>
+              <div class="col-lg-3 col-sm-6 text-center">
+                <img src="./assets/img/ima3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+              </div>
+              <div class="col-lg-3 col-sm-6 text-center">
+                <img src="./assets/img/ima4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
               </div>
             </div>
-          -->
-
-
-<!-- /LIGHTBOX -->
-    <!-- Images used to open the lightbox -->
-    <div class="row">
-      <div class="col-lg-3 text-center">
-        <img src="./assets/img/ima1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-      </div>
-      <div class="col-lg-3 text-center">
-        <img src="./assets/img/ima2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-      </div>
-      <div class="col-lg-3 text-center">
-        <img src="./assets/img/ima3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-      </div>
-      <div class="col-lg-3 text-center">
-        <img src="./assets/img/ima4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-      </div>
-    </div>
-    
-    <!-- The Modal/Lightbox -->
-    <div id="myModal" class="modal">
-      <span class="close cursor" onclick="closeModal()">&times;</span>
-      <div class="modal-content">
-    
-        <div class="mySlides">
-          <div class="numbertext">1 / 4</div>
-          <img src="https://mdbootstrap.com/img/Photos/Slides/1.jpg" style="width:100%">
-        </div>
-    
-        <div class="mySlides">
-          <div class="numbertext">2 / 4</div>
-          <img src="https://mdbootstrap.com/img/Photos/Slides/2.jpg" style="width:100%">
-        </div>
-    
-        <div class="mySlides">
-          <div class="numbertext">3 / 4</div>
-          <img src="https://mdbootstrap.com/img/Photos/Slides/3.jpg" style="width:100%">
-        </div>
-    
-        <div class="mySlides">
-          <div class="numbertext">4 / 4</div>
-          <img src="https://mdbootstrap.com/img/Photos/Slides/4.jpg" style="width:100%">
-        </div>
-    
-        <!-- Next/previous controls -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
-        <!-- Caption text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-    
-        <!-- Thumbnail image controls ->
-        <div class="column">
-          <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
-        </div>
-    
-        <div class="column">
-          <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
-        </div>
-    
-        <div class="column">
-          <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
-        </div>
-    
-        <div class="column">
-          <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
-        </div>
-      </div>
-    -->
-    </div>
-
-          <!-- /LIGHTBOX -->
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="https://mdbootstrap.com/img/Photos/Slides/1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="https://mdbootstrap.com/img/Photos/Slides/2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="https://mdbootstrap.com/img/Photos/Slides/3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext">4 / 4</div>
+                  <img src="https://mdbootstrap.com/img/Photos/Slides/4.jpg" style="width:100%">
+                </div>
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <!-- Caption text -->
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+                <!-- Thumbnail image controls -->
+                <ul id="controles">
+                  <li class="demo" onclick="currentSlide(1)"><i class="fa fa-circle"></i></li>
+                  <li class="demo" onclick="currentSlide(2)"><i class="fa fa-circle"></i></li>
+                  <li class="demo" onclick="currentSlide(3)"><i class="fa fa-circle"></i></li>
+                  <li class="demo" onclick="currentSlide(4)"><i class="fa fa-circle"></i></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /LIGHTBOX -->
           </div>
           <p class="text-center pt-5">
             <a class="btn-seccion" href="#">Suivez-nous sur Instagram</a>
@@ -388,11 +315,9 @@
         </div>
       </div>
     </footer>
+    <!-- script -->
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>  
     <script src="./assets/js/lightbox.js" type="text/javascript"></script>
-    <!-- MDB -->
-    <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script--> 
-    <!--script src="./assets/css/bootstrap-5.0.2/js/bootstrap.bundle.min.js"></script--> 
     <script>
       $('.icon').click(function(){
         $('#menu').toggleClass("display-menu");

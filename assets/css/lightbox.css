@@ -32,7 +32,7 @@
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: #000;
     margin: auto;
     padding: 0;
     width: 90%;
@@ -115,6 +115,7 @@
   .active,
   .demo:hover {
     opacity: 1;
+    color: #495F6B !important;
   }
   
   img.hover-shadow {
@@ -122,5 +123,17 @@
   }
   
   .hover-shadow:hover {
+    cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #controles{
+    background: #000;
+    list-style: none;
+    display: inline-flex;
+  }
+
+  #controles ul li, .demo{
+    cursor: pointer;
+    padding: 0 12px;
   }
